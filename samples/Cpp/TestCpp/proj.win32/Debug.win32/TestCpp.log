@@ -1,0 +1,516 @@
+﻿빌드 시작: 2013-03-12 오후 7:23:28
+     1>4 노드의 "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\TestCpp.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug.win32\TestCpp.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\cocos2dx" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\cocos2dx\include" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\cocos2dx\kazmath\include" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\cocos2dx\platform\win32" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\external" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\external\chipmunk\include\chipmunk" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\CocosDenshion\include" /I"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\..\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\ChipmunkTest\ChipmunkTest.cpp ..\Classes\ClippingNodeTest\ClippingNodeTest.cpp ..\Classes\ExtensionsTest\CocosBuilderTest\AnimationsTest\AnimationsTestLayer.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlPotentiometerTest\CCControlPotentiometerTest.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlStepperTest\CCControlStepperTest.cpp ..\Classes\ExtensionsTest\NetworkTest\HttpClientTest.cpp ..\Classes\ExtensionsTest\TableViewTest\CustomTableViewCell.cpp ..\Classes\ExtensionsTest\TableViewTest\TableViewTestScene.cpp ..\Classes\FileUtilsTest\FileUtilsTest.cpp ..\Classes\VisibleRect.cpp main.cpp ..\Classes\AppDelegate.cpp ..\Classes\controller.cpp ..\Classes\testBasic.cpp ..\Classes\ActionsTest\ActionsTest.cpp ..\Classes\TransitionsTest\TransitionsTest.cpp ..\Classes\EffectsTest\EffectsTest.cpp ..\Classes\ClickAndMoveTest\ClickAndMoveTest.cpp ..\Classes\RotateWorldTest\RotateWorldTest.cpp ..\Classes\ParticleTest\ParticleTest.cpp ..\Classes\ActionsEaseTest\ActionsEaseTest.cpp ..\Classes\MotionStreakTest\MotionStreakTest.cpp ..\Classes\DrawPrimitivesTest\DrawPrimitivesTest.cpp ..\Classes\ShaderTest\ShaderTest.cpp ..\Classes\TouchesTest\Ball.cpp ..\Classes\TouchesTest\Paddle.cpp ..\Classes\TouchesTest\TouchesTest.cpp ..\Classes\MenuTest\MenuTest.cpp ..\Classes\ActionManagerTest\ActionManagerTest.cpp ..\Classes\LayerTest\LayerTest.cpp ..\Classes\SceneTest\SceneTest.cpp ..\Classes\ParallaxTest\ParallaxTest.cpp ..\Classes\TileMapTest\TileMapTest.cpp ..\Classes\IntervalTest\IntervalTest.cpp ..\Classes\LabelTest\LabelTest.cpp ..\Classes\SpriteTest\SpriteTest.cpp ..\Classes\SchedulerTest\SchedulerTest.cpp ..\Classes\RenderTextureTest\RenderTextureTest.cpp ..\Classes\EffectsAdvancedTest\EffectsAdvancedTest.cpp ..\Classes\KeypadTest\KeypadTest.cpp ..\Classes\CocosDenshionTest\CocosDenshionTest.cpp ..\Classes\PerformanceTest\PerformanceNodeChildrenTest.cpp ..\Classes\PerformanceTest\PerformanceParticleTest.cpp ..\Classes\PerformanceTest\PerformanceSpriteTest.cpp ..\Classes\PerformanceTest\PerformanceTest.cpp ..\Classes\PerformanceTest\PerformanceTextureTest.cpp ..\Classes\PerformanceTest\PerformanceTouchesTest.cpp ..\Classes\ZwoptexTest\ZwoptexTest.cpp ..\Classes\CurlTest\CurlTest.cpp ..\Classes\TextInputTest\TextInputTest.cpp ..\Classes\UserDefaultTest\UserDefaultTest.cpp "..\Classes\BugsTest\Bug-1159.cpp" "..\Classes\BugsTest\Bug-1174.cpp" "..\Classes\BugsTest\Bug-350.cpp" "..\Classes\BugsTest\Bug-422.cpp" "..\Classes\BugsTest\Bug-624.cpp" "..\Classes\BugsTest\Bug-886.cpp" "..\Classes\BugsTest\Bug-899.cpp" "..\Classes\BugsTest\Bug-914.cpp" ..\Classes\BugsTest\BugsTest.cpp "..\Classes\BugsTest\Bug-458\Bug-458.cpp" "..\Classes\BugsTest\Bug-458\QuestionContainerSprite.cpp" ..\Classes\Texture2dTest\Texture2dTest.cpp ..\Classes\FontTest\FontTest.cpp ..\Classes\CurrentLanguageTest\CurrentLanguageTest.cpp ..\Classes\TextureCacheTest\TextureCacheTest.cpp ..\Classes\AccelerometerTest\AccelerometerTest.cpp ..\Classes\ExtensionsTest\ExtensionsTest.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlScene.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlSceneManager.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlButtonTest\CCControlButtonTest.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlColourPicker\CCControlColourPickerTest.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlSliderTest\CCControlSliderTest.cpp ..\Classes\ExtensionsTest\ControlExtensionTest\CCControlSwitchTest\CCControlSwitchTest.cpp ..\Classes\ExtensionsTest\NotificationCenterTest\NotificationCenterTest.cpp ..\Classes\ExtensionsTest\CocosBuilderTest\CocosBuilderTest.cpp ..\Classes\ExtensionsTest\CocosBuilderTest\ButtonTest\ButtonTestLayer.cpp ..\Classes\ExtensionsTest\CocosBuilderTest\HelloCocosBuilder\HelloCocosBuilderLayer.cpp ..\Classes\ExtensionsTest\CocosBuilderTest\MenuTest\MenuTestLayer.cpp ..\Classes\ExtensionsTest\CocosBuilderTest\TestHeader\TestHeaderLayer.cpp ..\Classes\NodeTest\NodeTest.cpp ..\Classes\ActionsProgressTest\ActionsProgressTest.cpp ..\Classes\Box2DTest\Box2dTest.cpp ..\Classes\Box2DTestBed\Box2dView.cpp "..\Classes\Box2DTestBed\GLES-Render.cpp" ..\Classes\Box2DTestBed\Test.cpp ..\Classes\Box2DTestBed\TestEntries.cpp ..\Classes\MutiTouchTest\MutiTouchTest.cpp
+         MutiTouchTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TestEntries.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Test.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         GLES-Render.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Box2dView.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Box2dTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ActionsProgressTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         NodeTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TestHeaderLayer.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         MenuTestLayer.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         HelloCocosBuilderLayer.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ButtonTestLayer.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CocosBuilderTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         NotificationCenterTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlSwitchTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlSliderTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlColourPickerTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlButtonTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlSceneManager.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlScene.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         ExtensionsTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         AccelerometerTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TextureCacheTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CurrentLanguageTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         FontTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Texture2dTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         QuestionContainerSprite.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-458.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         BugsTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-914.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-899.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-886.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-624.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-422.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-350.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-1174.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Bug-1159.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         UserDefaultTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TextInputTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CurlTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         ZwoptexTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PerformanceTouchesTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PerformanceTextureTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PerformanceTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PerformanceSpriteTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PerformanceParticleTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         PerformanceNodeChildrenTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CocosDenshionTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         KeypadTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         EffectsAdvancedTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         RenderTextureTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         SchedulerTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         SpriteTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4546): warning C4258: 'i' : for 루프의 정의가 무시되고 바깥쪽 범위의 정의가 사용됩니다.
+                 c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4528) : 'i' 정의가 무시됩니다.
+                 c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4498) : 'i' 정의가 사용됩니다.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4626): warning C4258: 'i' : for 루프의 정의가 무시되고 바깥쪽 범위의 정의가 사용됩니다.
+                 c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4601) : 'i' 정의가 무시됩니다.
+                 c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4571) : 'i' 정의가 사용됩니다.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4709): warning C4258: 'i' : for 루프의 정의가 무시되고 바깥쪽 범위의 정의가 사용됩니다.
+                 c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4684) : 'i' 정의가 무시됩니다.
+                 c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\spritetest\spritetest.cpp(4654) : 'i' 정의가 사용됩니다.
+         LabelTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\samples\cpp\testcpp\classes\labeltest\labeltest.cpp(970): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         IntervalTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TileMapTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ParallaxTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         SceneTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         LayerTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ActionManagerTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         MenuTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TouchesTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Paddle.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         Ball.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ShaderTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         DrawPrimitivesTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         MotionStreakTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ActionsEaseTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ParticleTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         RotateWorldTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ClickAndMoveTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         EffectsTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         TransitionsTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ActionsTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         testBasic.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         controller.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         AppDelegate.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         main.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         VisibleRect.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         FileUtilsTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         코드를 생성하고 있습니다...
+         컴파일하고 있습니다...
+         TableViewTestScene.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CustomTableViewCell.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         HttpClientTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlStepperTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         CCControlPotentiometerTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         AnimationsTestLayer.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ClippingNodeTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         ChipmunkTest.cpp
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\cocos2dx\platform\ccsaxparser.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\dev\projects\cocos2d-2.1beta3-x-2.1.1\extensions\gui\cccontrolextension\cccontrolpotentiometer.h : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+         코드를 생성하고 있습니다...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\TestCpp.exe.embed.manifest.res" Debug.win32\TestCpp_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\TestCpp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.lib" /MACHINE:X86 Debug.win32\TestCpp.exe.embed.manifest.res
+         Debug.win32\ChipmunkTest.obj
+         Debug.win32\ClippingNodeTest.obj
+         Debug.win32\AnimationsTestLayer.obj
+         Debug.win32\CCControlPotentiometerTest.obj
+         Debug.win32\CCControlStepperTest.obj
+         Debug.win32\HttpClientTest.obj
+         Debug.win32\CustomTableViewCell.obj
+         Debug.win32\TableViewTestScene.obj
+         Debug.win32\FileUtilsTest.obj
+         Debug.win32\VisibleRect.obj
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\controller.obj
+         Debug.win32\testBasic.obj
+         Debug.win32\ActionsTest.obj
+         Debug.win32\TransitionsTest.obj
+         Debug.win32\EffectsTest.obj
+         Debug.win32\ClickAndMoveTest.obj
+         Debug.win32\RotateWorldTest.obj
+         Debug.win32\ParticleTest.obj
+         Debug.win32\ActionsEaseTest.obj
+         Debug.win32\MotionStreakTest.obj
+         Debug.win32\DrawPrimitivesTest.obj
+         Debug.win32\ShaderTest.obj
+         Debug.win32\Ball.obj
+         Debug.win32\Paddle.obj
+         Debug.win32\TouchesTest.obj
+         Debug.win32\MenuTest.obj
+         Debug.win32\ActionManagerTest.obj
+         Debug.win32\LayerTest.obj
+         Debug.win32\SceneTest.obj
+         Debug.win32\ParallaxTest.obj
+         Debug.win32\TileMapTest.obj
+         Debug.win32\IntervalTest.obj
+         Debug.win32\LabelTest.obj
+         Debug.win32\SpriteTest.obj
+         Debug.win32\SchedulerTest.obj
+         Debug.win32\RenderTextureTest.obj
+         Debug.win32\EffectsAdvancedTest.obj
+         Debug.win32\KeypadTest.obj
+         Debug.win32\CocosDenshionTest.obj
+         Debug.win32\PerformanceNodeChildrenTest.obj
+         Debug.win32\PerformanceParticleTest.obj
+         Debug.win32\PerformanceSpriteTest.obj
+         Debug.win32\PerformanceTest.obj
+         Debug.win32\PerformanceTextureTest.obj
+         Debug.win32\PerformanceTouchesTest.obj
+         Debug.win32\ZwoptexTest.obj
+         Debug.win32\CurlTest.obj
+         Debug.win32\TextInputTest.obj
+         Debug.win32\UserDefaultTest.obj
+         "Debug.win32\Bug-1159.obj"
+         "Debug.win32\Bug-1174.obj"
+         "Debug.win32\Bug-350.obj"
+         "Debug.win32\Bug-422.obj"
+         "Debug.win32\Bug-624.obj"
+         "Debug.win32\Bug-886.obj"
+         "Debug.win32\Bug-899.obj"
+         "Debug.win32\Bug-914.obj"
+         Debug.win32\BugsTest.obj
+         "Debug.win32\Bug-458.obj"
+         Debug.win32\QuestionContainerSprite.obj
+         Debug.win32\Texture2dTest.obj
+         Debug.win32\FontTest.obj
+         Debug.win32\CurrentLanguageTest.obj
+         Debug.win32\TextureCacheTest.obj
+         Debug.win32\AccelerometerTest.obj
+         Debug.win32\ExtensionsTest.obj
+         Debug.win32\CCControlScene.obj
+         Debug.win32\CCControlSceneManager.obj
+         Debug.win32\CCControlButtonTest.obj
+         Debug.win32\CCControlColourPickerTest.obj
+         Debug.win32\CCControlSliderTest.obj
+         Debug.win32\CCControlSwitchTest.obj
+         Debug.win32\NotificationCenterTest.obj
+         Debug.win32\CocosBuilderTest.obj
+         Debug.win32\ButtonTestLayer.obj
+         Debug.win32\HelloCocosBuilderLayer.obj
+         Debug.win32\MenuTestLayer.obj
+         Debug.win32\TestHeaderLayer.obj
+         Debug.win32\NodeTest.obj
+         Debug.win32\ActionsProgressTest.obj
+         Debug.win32\Box2dTest.obj
+         Debug.win32\Box2dView.obj
+         "Debug.win32\GLES-Render.obj"
+         Debug.win32\Test.obj
+         Debug.win32\TestEntries.obj
+         Debug.win32\MutiTouchTest.obj
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libcocos2d.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libCocosDenshion.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libExtensions.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libBox2D.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libchipmunk.lib"
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug.win32\TestCpp.exe.embed.manifest" /manifest Debug.win32\TestCpp.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug.win32\TestCpp.exe.embed.manifest.res" Debug.win32\TestCpp_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\TestCpp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.lib" /MACHINE:X86 Debug.win32\TestCpp.exe.embed.manifest.res
+         Debug.win32\ChipmunkTest.obj
+         Debug.win32\ClippingNodeTest.obj
+         Debug.win32\AnimationsTestLayer.obj
+         Debug.win32\CCControlPotentiometerTest.obj
+         Debug.win32\CCControlStepperTest.obj
+         Debug.win32\HttpClientTest.obj
+         Debug.win32\CustomTableViewCell.obj
+         Debug.win32\TableViewTestScene.obj
+         Debug.win32\FileUtilsTest.obj
+         Debug.win32\VisibleRect.obj
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         Debug.win32\controller.obj
+         Debug.win32\testBasic.obj
+         Debug.win32\ActionsTest.obj
+         Debug.win32\TransitionsTest.obj
+         Debug.win32\EffectsTest.obj
+         Debug.win32\ClickAndMoveTest.obj
+         Debug.win32\RotateWorldTest.obj
+         Debug.win32\ParticleTest.obj
+         Debug.win32\ActionsEaseTest.obj
+         Debug.win32\MotionStreakTest.obj
+         Debug.win32\DrawPrimitivesTest.obj
+         Debug.win32\ShaderTest.obj
+         Debug.win32\Ball.obj
+         Debug.win32\Paddle.obj
+         Debug.win32\TouchesTest.obj
+         Debug.win32\MenuTest.obj
+         Debug.win32\ActionManagerTest.obj
+         Debug.win32\LayerTest.obj
+         Debug.win32\SceneTest.obj
+         Debug.win32\ParallaxTest.obj
+         Debug.win32\TileMapTest.obj
+         Debug.win32\IntervalTest.obj
+         Debug.win32\LabelTest.obj
+         Debug.win32\SpriteTest.obj
+         Debug.win32\SchedulerTest.obj
+         Debug.win32\RenderTextureTest.obj
+         Debug.win32\EffectsAdvancedTest.obj
+         Debug.win32\KeypadTest.obj
+         Debug.win32\CocosDenshionTest.obj
+         Debug.win32\PerformanceNodeChildrenTest.obj
+         Debug.win32\PerformanceParticleTest.obj
+         Debug.win32\PerformanceSpriteTest.obj
+         Debug.win32\PerformanceTest.obj
+         Debug.win32\PerformanceTextureTest.obj
+         Debug.win32\PerformanceTouchesTest.obj
+         Debug.win32\ZwoptexTest.obj
+         Debug.win32\CurlTest.obj
+         Debug.win32\TextInputTest.obj
+         Debug.win32\UserDefaultTest.obj
+         "Debug.win32\Bug-1159.obj"
+         "Debug.win32\Bug-1174.obj"
+         "Debug.win32\Bug-350.obj"
+         "Debug.win32\Bug-422.obj"
+         "Debug.win32\Bug-624.obj"
+         "Debug.win32\Bug-886.obj"
+         "Debug.win32\Bug-899.obj"
+         "Debug.win32\Bug-914.obj"
+         Debug.win32\BugsTest.obj
+         "Debug.win32\Bug-458.obj"
+         Debug.win32\QuestionContainerSprite.obj
+         Debug.win32\Texture2dTest.obj
+         Debug.win32\FontTest.obj
+         Debug.win32\CurrentLanguageTest.obj
+         Debug.win32\TextureCacheTest.obj
+         Debug.win32\AccelerometerTest.obj
+         Debug.win32\ExtensionsTest.obj
+         Debug.win32\CCControlScene.obj
+         Debug.win32\CCControlSceneManager.obj
+         Debug.win32\CCControlButtonTest.obj
+         Debug.win32\CCControlColourPickerTest.obj
+         Debug.win32\CCControlSliderTest.obj
+         Debug.win32\CCControlSwitchTest.obj
+         Debug.win32\NotificationCenterTest.obj
+         Debug.win32\CocosBuilderTest.obj
+         Debug.win32\ButtonTestLayer.obj
+         Debug.win32\HelloCocosBuilderLayer.obj
+         Debug.win32\MenuTestLayer.obj
+         Debug.win32\TestHeaderLayer.obj
+         Debug.win32\NodeTest.obj
+         Debug.win32\ActionsProgressTest.obj
+         Debug.win32\Box2dTest.obj
+         Debug.win32\Box2dView.obj
+         "Debug.win32\GLES-Render.obj"
+         Debug.win32\Test.obj
+         Debug.win32\TestEntries.obj
+         Debug.win32\MutiTouchTest.obj
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libcocos2d.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libCocosDenshion.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libExtensions.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libBox2D.lib"
+         "C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\libchipmunk.lib"
+         TestCpp.vcxproj -> C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\Debug.win32\TestCpp.exe
+       FinalizeBuildStatus:
+         "Debug.win32\TestCpp.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug.win32\TestCpp.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\DEV\Projects\cocos2d-2.1beta3-x-2.1.1\samples\Cpp\TestCpp\proj.win32\TestCpp.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:02:55.73
