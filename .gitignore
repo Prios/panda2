@@ -1,3 +1,11 @@
+###############
+## PANDA_CUSTOM
+###############
+!cocos2d-win32.vc2010.sdf
+!cocos2d-win32.vc2010.suo
+cocos2dx\proj.win32\Debug.win32\
+
+
 #################
 ## Eclipse
 #################
@@ -163,11 +171,3 @@ pip-log.txt
 .DS_Store
 
 
-###############
-## PANDA_CUSTOM
-###############
-!cocos2d-win32.vc2010.sdf
-!cocos2d-win32.vc2010.suo
-Debug.win32
-!Panda/proj.win32
-Panda/proj.win32/Debug.win32
