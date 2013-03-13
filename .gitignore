@@ -1,9 +1,8 @@
-###############
-## PANDA_CUSTOM
-###############
+# HANGIL_IGNORE_LIST
 !cocos2d-win32.vc2010.sdf
 !cocos2d-win32.vc2010.suo
 Debug.win32/
+
 #################
 ## Eclipse
 #################
