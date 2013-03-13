@@ -161,3 +161,11 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+
+
+###############
+## PANDA_CUSTOM
+###############
+!cocos2d-win32.vc2010.sdf
+!cocos2d-win32.vc2010.suo
+!/Panda
