@@ -13,6 +13,30 @@
       <UniqueIdentifier>{4dcd31ac-1cc7-47d1-ae26-e7e17f540d7d}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
+    <Filter Include="audioplayer">
+      <UniqueIdentifier>{c0dd3ade-d819-46f2-805e-53d634954e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui">
+      <UniqueIdentifier>{a5583571-71e6-4776-b837-f03440a5e0f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\ingame">
+      <UniqueIdentifier>{02b4f272-b804-473d-aa27-f5e75b6f6438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui\outgame">
+      <UniqueIdentifier>{8f954584-8252-4ff8-acf7-92dc3cf8e38b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{474738a2-efb1-4f79-bdb4-1b82e19e58c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\http">
+      <UniqueIdentifier>{d4371663-8b77-4c90-90d3-9ae5a431a95b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util\parser">
+      <UniqueIdentifier>{ae5853b9-ff8c-41e2-bd57-af15ca755b34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="application">
+      <UniqueIdentifier>{529d8b88-74e2-4de5-ab39-b9853cfd91b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\Panda.ico">
@@ -34,28 +58,40 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="resource.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>include</Filter>
+    <ClInclude Include="MainApplication.h">
+      <Filter>ui\outgame</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>include</Filter>
+      <Filter>ui\outgame</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingTitleView.h">
+      <Filter>ui\outgame</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>application</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>ui\outgame</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingTitleView.cpp">
+      <Filter>ui\outgame</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApplication.cpp">
+      <Filter>ui\outgame</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>source</Filter>
+      <Filter>application</Filter>
     </ClCompile>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>source</Filter>
+    <ClCompile Include="main.cpp">
+      <Filter>application</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
