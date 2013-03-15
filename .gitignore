@@ -168,6 +168,7 @@ pip-log.txt
 ###############
 !cocos2d-win32.vc2010.sdf
 !cocos2d-win32.vc2010.suo
-Debug.win32
+!Panda.win32.vcxproj
+Debug.win32/
 !Panda/proj.win32
 Panda/proj.win32/Debug.win32

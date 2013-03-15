@@ -131,14 +131,59 @@
     <ResourceCompile Include="Panda.rc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\Classes\AppDelegate.h" />
-    <ClInclude Include="..\Classes\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\Application\AppDelegate.h" />
+    <ClInclude Include="..\Classes\AudioPlayer\AudioPlayer.h" />
+    <ClInclude Include="..\Classes\Datas\DungeonData.h" />
+    <ClInclude Include="..\Classes\Datas\UserData.h" />
+    <ClInclude Include="..\Classes\UI\Extras\LoadingIndicator.h" />
+    <ClInclude Include="..\Classes\UI\Extras\SolidOKButton.h" />
+    <ClInclude Include="..\Classes\UI\Extras\SolidPopupView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\InformationHeaderView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\IngameBaseView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\IngameGraphicView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\PuzzleBaseView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\StatusView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\DungeonView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\GuitarView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\HelloWorldScene.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\InventoryView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\LoadingView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\LuckyView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\MainApplication.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\TabViewBaseView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\ShopView.h" />
+    <ClInclude Include="..\Classes\UI\Outgame\TitleView.h" />
+    <ClInclude Include="..\Classes\Util\HttpRequest.h" />
+    <ClInclude Include="..\Classes\Util\JSONParser.h" />
+    <ClInclude Include="..\Classes\Util\XMLParser.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Classes\AppDelegate.cpp" />
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\Application\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\AudioPlayer\AudioPlayer.cpp" />
+    <ClCompile Include="..\Classes\Datas\DungeonData.cpp" />
+    <ClCompile Include="..\Classes\Datas\UserData.cpp" />
+    <ClCompile Include="..\Classes\UI\Extras\LoadingIndicator.cpp" />
+    <ClCompile Include="..\Classes\UI\Extras\SolidOKButton.cpp" />
+    <ClCompile Include="..\Classes\UI\Extras\SolidPopupView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\InformationHeaderView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\IngameBaseView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\IngameGraphicView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\PuzzleBaseView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\StatusView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\DungeonView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\GuitarView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\HelloWorldScene.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\InventoryView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\LoadingView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\LuckyView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\MainApplication.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\TabViewBaseView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\ShopView.cpp" />
+    <ClCompile Include="..\Classes\UI\Outgame\TitleView.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

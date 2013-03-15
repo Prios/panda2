@@ -9,30 +9,6 @@
       <UniqueIdentifier>{4dcd31ac-1cc7-47d1-ae26-e7e17f540d7d}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
-    <Filter Include="source\audioplayer">
-      <UniqueIdentifier>{c0dd3ade-d819-46f2-805e-53d634954e10}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\ui">
-      <UniqueIdentifier>{a5583571-71e6-4776-b837-f03440a5e0f3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\ui\ingame">
-      <UniqueIdentifier>{02b4f272-b804-473d-aa27-f5e75b6f6438}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\ui\outgame">
-      <UniqueIdentifier>{8f954584-8252-4ff8-acf7-92dc3cf8e38b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\application">
-      <UniqueIdentifier>{529d8b88-74e2-4de5-ab39-b9853cfd91b5}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\util">
-      <UniqueIdentifier>{474738a2-efb1-4f79-bdb4-1b82e19e58c8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\util\http">
-      <UniqueIdentifier>{d4371663-8b77-4c90-90d3-9ae5a431a95b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="source\util\parser">
-      <UniqueIdentifier>{ae5853b9-ff8c-41e2-bd57-af15ca755b34}</UniqueIdentifier>
-    </Filter>
     <Filter Include="resource\images">
       <UniqueIdentifier>{69903edd-49f2-4fbc-9943-ed6aa6788032}</UniqueIdentifier>
     </Filter>
@@ -41,6 +17,42 @@
     </Filter>
     <Filter Include="resource\etcs">
       <UniqueIdentifier>{198d0c9d-d7b3-4b8e-810f-728b18316bf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Application">
+      <UniqueIdentifier>{2004e99b-10fe-4f8a-b7f1-a688de178926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI">
+      <UniqueIdentifier>{076f609c-3f52-4467-b444-0a778951dccb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Ingame">
+      <UniqueIdentifier>{4fe4f4e2-bc84-43d0-a792-96cdb38fdbf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Outgame">
+      <UniqueIdentifier>{3edd04cb-669f-4877-83ac-6cf1d24d7ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Util">
+      <UniqueIdentifier>{2eb9c38c-1c7b-47a1-b851-cb1c7ce43503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Extras">
+      <UniqueIdentifier>{e80bb833-0214-422a-b443-85528cc80145}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\AudioPlayer">
+      <UniqueIdentifier>{12cb686f-a724-4087-a391-163a1d9719d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\Datas">
+      <UniqueIdentifier>{f5faa721-781f-43fd-b37a-812192f9da65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Ingame\PuzzleView">
+      <UniqueIdentifier>{38ad5bd6-d5d5-49fb-8fed-7fc9fb66c45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Outgame\MainView">
+      <UniqueIdentifier>{b66e1a38-8922-47c6-90bf-6477d2d1c87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Ingame\IngameBaseView">
+      <UniqueIdentifier>{a4e473b8-a137-4a89-a181-b8caf8285454}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\UI\Outgame\TabView">
+      <UniqueIdentifier>{84511f9c-5805-4f5d-b215-a2e8229aebf4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -58,40 +70,163 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MainApplication.h">
-      <Filter>source\ui\outgame</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>source\ui\outgame</Filter>
-    </ClInclude>
-    <ClInclude Include="LoadingTitleView.h">
-      <Filter>source\ui\outgame</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>source\application</Filter>
+    <ClInclude Include="..\Classes\Application\AppDelegate.h">
+      <Filter>source\Application</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>source\application</Filter>
+      <Filter>source\Application</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>source\application</Filter>
+      <Filter>source\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AudioPlayer\AudioPlayer.h">
+      <Filter>source\AudioPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Datas\DungeonData.h">
+      <Filter>source\Datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Datas\UserData.h">
+      <Filter>source\Datas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\HttpRequest.h">
+      <Filter>source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\JSONParser.h">
+      <Filter>source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Util\XMLParser.h">
+      <Filter>source\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Extras\SolidOKButton.h">
+      <Filter>source\UI\Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Extras\SolidPopupView.h">
+      <Filter>source\UI\Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\PuzzleBaseView.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleView.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\InformationHeaderView.h">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\IngameBaseView.h">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\IngameGraphicView.h">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\StatusView.h">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Extras\LoadingIndicator.h">
+      <Filter>source\UI\Extras</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\HelloWorldScene.h">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\MainApplication.h">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\TitleView.h">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\DungeonView.h">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\GuitarView.h">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\InventoryView.h">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\LuckyView.h">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\ShopView.h">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\LoadingView.h">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Outgame\TabViewBaseView.h">
+      <Filter>source\UI\Outgame\TabView</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>source\ui\outgame</Filter>
-    </ClCompile>
-    <ClCompile Include="LoadingTitleView.cpp">
-      <Filter>source\ui\outgame</Filter>
-    </ClCompile>
-    <ClCompile Include="MainApplication.cpp">
-      <Filter>source\ui\outgame</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>source\application</Filter>
+    <ClCompile Include="..\Classes\Application\AppDelegate.cpp">
+      <Filter>source\Application</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>source\application</Filter>
+      <Filter>source\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AudioPlayer\AudioPlayer.cpp">
+      <Filter>source\AudioPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Datas\DungeonData.cpp">
+      <Filter>source\Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Datas\UserData.cpp">
+      <Filter>source\Datas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Extras\SolidOKButton.cpp">
+      <Filter>source\UI\Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Extras\SolidPopupView.cpp">
+      <Filter>source\UI\Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\PuzzleBaseView.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleView.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\InformationHeaderView.cpp">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\IngameBaseView.cpp">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\IngameGraphicView.cpp">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\StatusView.cpp">
+      <Filter>source\UI\Ingame\IngameBaseView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Extras\LoadingIndicator.cpp">
+      <Filter>source\UI\Extras</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\HelloWorldScene.cpp">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\MainApplication.cpp">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\TitleView.cpp">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\DungeonView.cpp">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\GuitarView.cpp">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\InventoryView.cpp">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\LuckyView.cpp">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\ShopView.cpp">
+      <Filter>source\UI\Outgame\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\LoadingView.cpp">
+      <Filter>source\UI\Outgame\MainView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Outgame\TabViewBaseView.cpp">
+      <Filter>source\UI\Outgame\TabView</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
