@@ -5,51 +5,50 @@
       <UniqueIdentifier>{4d26f823-7b59-411b-a0b6-95c9aed4dac5}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
     </Filter>
-    <Filter Include="include">
-      <UniqueIdentifier>{09cf2189-9ed0-4489-9d72-e081603ea7ee}</UniqueIdentifier>
-      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
-    </Filter>
     <Filter Include="resource">
       <UniqueIdentifier>{4dcd31ac-1cc7-47d1-ae26-e7e17f540d7d}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
     </Filter>
-    <Filter Include="audioplayer">
+    <Filter Include="source\audioplayer">
       <UniqueIdentifier>{c0dd3ade-d819-46f2-805e-53d634954e10}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ui">
+    <Filter Include="source\ui">
       <UniqueIdentifier>{a5583571-71e6-4776-b837-f03440a5e0f3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ui\ingame">
+    <Filter Include="source\ui\ingame">
       <UniqueIdentifier>{02b4f272-b804-473d-aa27-f5e75b6f6438}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ui\outgame">
+    <Filter Include="source\ui\outgame">
       <UniqueIdentifier>{8f954584-8252-4ff8-acf7-92dc3cf8e38b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="util">
+    <Filter Include="source\application">
+      <UniqueIdentifier>{529d8b88-74e2-4de5-ab39-b9853cfd91b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\util">
       <UniqueIdentifier>{474738a2-efb1-4f79-bdb4-1b82e19e58c8}</UniqueIdentifier>
     </Filter>
-    <Filter Include="util\http">
+    <Filter Include="source\util\http">
       <UniqueIdentifier>{d4371663-8b77-4c90-90d3-9ae5a431a95b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="util\parser">
+    <Filter Include="source\util\parser">
       <UniqueIdentifier>{ae5853b9-ff8c-41e2-bd57-af15ca755b34}</UniqueIdentifier>
     </Filter>
-    <Filter Include="application">
-      <UniqueIdentifier>{529d8b88-74e2-4de5-ab39-b9853cfd91b5}</UniqueIdentifier>
+    <Filter Include="resource\images">
+      <UniqueIdentifier>{69903edd-49f2-4fbc-9943-ed6aa6788032}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\Panda.ico">
       <Filter>resource</Filter>
     </None>
-    <None Include="..\Resources\CloseSelected.png">
-      <Filter>resource</Filter>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource\images</Filter>
     </None>
     <None Include="..\Resources\CloseNormal.png">
-      <Filter>resource</Filter>
+      <Filter>resource\images</Filter>
     </None>
-    <None Include="..\Resources\HelloWorld.png">
-      <Filter>resource</Filter>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource\images</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -59,39 +58,39 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MainApplication.h">
-      <Filter>ui\outgame</Filter>
+      <Filter>source\ui\outgame</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
-      <Filter>ui\outgame</Filter>
+      <Filter>source\ui\outgame</Filter>
     </ClInclude>
     <ClInclude Include="LoadingTitleView.h">
-      <Filter>ui\outgame</Filter>
+      <Filter>source\ui\outgame</Filter>
     </ClInclude>
     <ClInclude Include="..\Classes\AppDelegate.h">
-      <Filter>application</Filter>
+      <Filter>source\application</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>application</Filter>
+      <Filter>source\application</Filter>
     </ClInclude>
     <ClInclude Include="resource.h">
-      <Filter>application</Filter>
+      <Filter>source\application</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
-      <Filter>ui\outgame</Filter>
+      <Filter>source\ui\outgame</Filter>
     </ClCompile>
     <ClCompile Include="LoadingTitleView.cpp">
-      <Filter>ui\outgame</Filter>
+      <Filter>source\ui\outgame</Filter>
     </ClCompile>
     <ClCompile Include="MainApplication.cpp">
-      <Filter>ui\outgame</Filter>
+      <Filter>source\ui\outgame</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\AppDelegate.cpp">
-      <Filter>application</Filter>
+      <Filter>source\application</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
-      <Filter>application</Filter>
+      <Filter>source\application</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
