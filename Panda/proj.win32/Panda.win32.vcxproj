@@ -142,7 +142,7 @@
     <ClInclude Include="..\Classes\UI\Ingame\IngameBaseView.h" />
     <ClInclude Include="..\Classes\UI\Ingame\IngameGraphicView.h" />
     <ClInclude Include="..\Classes\UI\Ingame\PuzzleBaseView.h" />
-    <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleView.h" />
+    <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleBlock.h" />
     <ClInclude Include="..\Classes\UI\Ingame\StatusView.h" />
     <ClInclude Include="..\Classes\UI\Outgame\DungeonView.h" />
     <ClInclude Include="..\Classes\UI\Outgame\GuitarView.h" />
@@ -172,7 +172,7 @@
     <ClCompile Include="..\Classes\UI\Ingame\IngameBaseView.cpp" />
     <ClCompile Include="..\Classes\UI\Ingame\IngameGraphicView.cpp" />
     <ClCompile Include="..\Classes\UI\Ingame\PuzzleBaseView.cpp" />
-    <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleView.cpp" />
+    <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleBlock.cpp" />
     <ClCompile Include="..\Classes\UI\Ingame\StatusView.cpp" />
     <ClCompile Include="..\Classes\UI\Outgame\DungeonView.cpp" />
     <ClCompile Include="..\Classes\UI\Outgame\GuitarView.cpp" />

@@ -106,9 +106,6 @@
     <ClInclude Include="..\Classes\UI\Ingame\PuzzleBaseView.h">
       <Filter>source\UI\Ingame\PuzzleView</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleView.h">
-      <Filter>source\UI\Ingame\PuzzleView</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\UI\Ingame\InformationHeaderView.h">
       <Filter>source\UI\Ingame\IngameBaseView</Filter>
     </ClInclude>
@@ -154,6 +151,9 @@
     <ClInclude Include="..\Classes\UI\Outgame\TabViewBaseView.h">
       <Filter>source\UI\Outgame\TabView</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleBlock.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\Application\AppDelegate.cpp">
@@ -178,9 +178,6 @@
       <Filter>source\UI\Extras</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\UI\Ingame\PuzzleBaseView.cpp">
-      <Filter>source\UI\Ingame\PuzzleView</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleView.cpp">
       <Filter>source\UI\Ingame\PuzzleView</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\UI\Ingame\InformationHeaderView.cpp">
@@ -227,6 +224,9 @@
     </ClCompile>
     <ClCompile Include="..\Classes\UI\Outgame\TabViewBaseView.cpp">
       <Filter>source\UI\Outgame\TabView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleBlock.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
