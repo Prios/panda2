@@ -1,8 +1,8 @@
 #include "cocos2d.h"
 #include "CCEGLView.h"
 #include "AppDelegate.h"
-#include "../UI/Outgame/HelloWorldScene.h"
 
+#include "../UI/Outgame/MainApplication.h"
 #include "SimpleAudioEngine.h"
 
 using namespace CocosDenshion;
@@ -24,7 +24,7 @@ bool AppDelegate::applicationDidFinishLaunching()
     pDirector->setOpenGLView(CCEGLView::sharedOpenGLView());
     pDirector->setDisplayStats(true);
     pDirector->setAnimationInterval(1.0 / 60);
-    CCScene *pScene = HelloWorld::scene();
+    CCScene *pScene = MainApplication::scene();
 
     pDirector->runWithScene(pScene);
     return true;
