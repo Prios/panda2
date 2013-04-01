@@ -154,6 +154,18 @@
     <ClInclude Include="..\Classes\UI\Ingame\SinglePuzzleBlock.h">
       <Filter>source\UI\Ingame\PuzzleView</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\WeaponBlock.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\HeartBlock.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\ArmorBlock.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\UI\Ingame\GoldBlock.h">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\Application\AppDelegate.cpp">
@@ -226,6 +238,18 @@
       <Filter>source\UI\Outgame\TabView</Filter>
     </ClCompile>
     <ClCompile Include="..\Classes\UI\Ingame\SinglePuzzleBlock.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\WeaponBlock.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\HeartBlock.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\ArmorBlock.cpp">
+      <Filter>source\UI\Ingame\PuzzleView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\UI\Ingame\GoldBlock.cpp">
       <Filter>source\UI\Ingame\PuzzleView</Filter>
     </ClCompile>
   </ItemGroup>
