@@ -1,7 +1,9 @@
 #ifndef __HEART_BLOCK_H__
 #define __HEART_BLOCK_H__
 	
-class HeartBlock : public SinglePuzzleBlock
+#include "DragBlock.h"
+
+class HeartBlock : public DragBlock
 {
 
 private:

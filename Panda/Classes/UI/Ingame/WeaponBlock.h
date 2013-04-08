@@ -1,7 +1,11 @@
+
 #ifndef __WEAPON_BLOCK_H__
 #define __WEAPON_BLOCK_H__
-	
-class WeaponBlock : public SinglePuzzleBlock
+
+
+#include "BattleBlock.h"
+
+class WeaponBlock : public BattleBlock
 {
 
 private:
